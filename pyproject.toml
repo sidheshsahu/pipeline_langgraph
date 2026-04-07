@@ -12,4 +12,6 @@ dependencies = [
     "langchain-groq>=1.1.2",
     "langgraph>=1.1.4",
     "langsmith[claude-agent-sdk]>=0.7.23",
+    "pandas>=3.0.2",
+    "sqlalchemy>=2.0.49",
 ]
