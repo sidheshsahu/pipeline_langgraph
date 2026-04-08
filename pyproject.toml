@@ -13,5 +13,7 @@ dependencies = [
     "langgraph>=1.1.4",
     "langsmith[claude-agent-sdk]>=0.7.23",
     "pandas>=3.0.2",
+    "pydantic>=2.12.5",
+    "sendgrid>=6.12.5",
     "sqlalchemy>=2.0.49",
 ]
