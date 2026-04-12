@@ -18,22 +18,44 @@ This repo includes hands-on practice with:
 
 ## Project Files
 
-- `sequential.ipynb`  
+The notebooks and data are now organized into folders:
+
+```text
+pipeline_langgraph/
+|-- data/
+|   `-- house_price.csv
+|-- projects/
+|   |-- sequential.ipynb
+|   |-- conditional.ipynb
+|   |-- parallel.ipynb
+|   |-- iteration.ipynb
+|   `-- db_agent.ipynb
+|-- house_prices.db
+|-- main.py
+|-- pyproject.toml
+`-- README.md
+```
+
+### Notebooks
+
+- `projects/sequential.ipynb`  
   Practice with a basic step-by-step LangGraph flow.
 
-- `conditional.ipynb`  
+- `projects/conditional.ipynb`  
   Practice with branching logic and conditional edges.
 
-- `parallel.ipynb`  
+- `projects/parallel.ipynb`  
   Practice with parallel paths and tool-based execution.
 
-- `iteration.ipynb`  
+- `projects/iteration.ipynb`  
   Practice with loop-based refinement, such as improving text across multiple iterations.
 
-- `db_agent.ipynb`  
+- `projects/db_agent.ipynb`  
   Practice with a database-related agent workflow.
 
-- `house_price.csv`  
+### Data Files
+
+- `data/house_price.csv`  
   Sample dataset used for database or agent experiments.
 
 - `house_prices.db`  
@@ -82,6 +104,8 @@ uv run jupyter notebook
 ```
 
 Then open any notebook and run the cells one by one while practicing the LangGraph concepts.
+
+The main notebooks live inside the `projects/` folder, and supporting datasets live inside `data/`.
 
 ## Notes
 
