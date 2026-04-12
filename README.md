@@ -123,10 +123,3 @@ I am using this repository to get comfortable with:
 - How to debug graph behavior
 - How different execution patterns behave in practice
 
-## Future Practice Ideas
-
-- Add memory-based workflows
-- Try human-in-the-loop patterns
-- Build a multi-agent example
-- Add better visualization for graph execution
-- Compare different prompting styles across notebooks
